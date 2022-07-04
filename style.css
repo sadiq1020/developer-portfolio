@@ -1,0 +1,47 @@
+body {
+    font-family: 'Aclonica', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.green-color {
+    color: rgb(16, 177, 16);
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width {
+    margin-left: 10px;
+}
+
+.half-width {
+    padding-left: 7%;
+}
+
+.half-width img {
+    width: 60%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(green, rgb(46, 235, 46));
+    padding: 10px 40px;
+    font-weight: 700;
+    font-size: larger;
+    border-radius: 5px;
+    color: white;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
