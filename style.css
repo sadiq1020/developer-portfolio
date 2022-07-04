@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .green-color {
     color: rgb(16, 177, 16);
 }
 
-section {
+.felxible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -36,9 +40,9 @@ section {
     text-decoration: none;
     background-image: linear-gradient(green, rgb(36, 192, 36));
     padding: 10px 40px;
-    font-weight: 700;
+    font-weight: 600;
     font-size: larger;
-    border-radius: 5px;
+    border-radius: 7px;
     color: white;
 }
 
@@ -55,4 +59,30 @@ section {
 
 .right-padding {
     padding-right: 10px;
+}
+
+#only-this {
+    padding-left: 130px;
+}
+
+.experience-items {
+    box-shadow: 10px 10px 30px rgb(64, 187, 64);
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
+
+#full-stack-developer {
+    border-left: 7px solid orangered;
+    border-radius: 5px;
+}
+
+#baby-web-developer {
+    border-left: 7px solid rgb(189, 128, 14);
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
 }
